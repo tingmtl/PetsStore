@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PetsStore.Domain\PetsStore.Domain.csproj">
+      <Project>{4f6c19a4-54d4-4aed-b017-ad06a4f792ac}</Project>
+      <Name>PetsStore.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
